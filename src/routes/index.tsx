@@ -24,7 +24,7 @@ function Index() {
 <div className="sb-ref-003">
 <header className="sb-ref-004">
 <a href="#top" aria-label="SkyBlu Technologies home" className="sb-ref-005">
-<svg width="68" height="56" viewbox="0 0 44 36" aria-hidden="true">
+<svg width="68" height="56" viewBox="0 0 44 36" aria-hidden="true">
 <circle cx="20" cy="18" r="8" fill="var(--sb-color-3)"></circle>
 <g fill="var(--sb-color-3)">
 <circle cx="7" cy="18" r="2.1"></circle>
@@ -52,7 +52,7 @@ function Index() {
 <div className="sb-ref-015">
 <Button asChild variant="reference" size="reference"><a href="mailto:albert@skyblu.co.uk" className="sb-cta sb-ref-016">
             Talk to us
-            <svg width="16" height="16" viewbox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"></path></svg>
+            <svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"></path></svg>
 </a></Button>
 <span className="sb-ref-017">Full website coming soon</span>
 </div>
@@ -68,7 +68,7 @@ function Index() {
 <div className="sb-ref-023">
 <div className="sb-tile sb-ref-024">
 <div className="sb-ref-025">
-<svg width="30" height="30" viewbox="0 0 28 28" aria-hidden="true"><g fill="none" stroke="var(--sb-color-4)" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"><rect x="7" y="7" width="14" height="14" rx="2.5"></rect><rect x="11" y="11" width="6" height="6" rx="1"></rect><path d="M11 3v4M17 3v4M11 21v4M17 21v4M3 11h4M3 17h4M21 11h4M21 17h4"></path></g></svg>
+<svg width="30" height="30" viewBox="0 0 28 28" aria-hidden="true"><g fill="none" stroke="var(--sb-color-4)" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"><rect x="7" y="7" width="14" height="14" rx="2.5"></rect><rect x="11" y="11" width="6" height="6" rx="1"></rect><path d="M11 3v4M17 3v4M11 21v4M17 21v4M3 11h4M3 17h4M21 11h4M21 17h4"></path></g></svg>
 <span className="sb-ref-026">01</span>
 </div>
 <h3 className="sb-ref-027">Edge AI platform</h3>
@@ -76,7 +76,7 @@ function Index() {
 </div>
 <div className="sb-tile sb-ref-029">
 <div className="sb-ref-030">
-<svg width="30" height="30" viewbox="0 0 28 28" aria-hidden="true"><g fill="none" stroke="var(--sb-color-4)" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"><rect x="3" y="3" width="8" height="8" rx="2"></rect><rect x="17" y="3" width="8" height="8" rx="2"></rect><rect x="10" y="17" width="8" height="8" rx="2"></rect><path d="M7 11v3h14v-3M14 14v3"></path></g></svg>
+<svg width="30" height="30" viewBox="0 0 28 28" aria-hidden="true"><g fill="none" stroke="var(--sb-color-4)" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"><rect x="3" y="3" width="8" height="8" rx="2"></rect><rect x="17" y="3" width="8" height="8" rx="2"></rect><rect x="10" y="17" width="8" height="8" rx="2"></rect><path d="M7 11v3h14v-3M14 14v3"></path></g></svg>
 <span className="sb-ref-031">02</span>
 </div>
 <h3 className="sb-ref-032">Systems integration</h3>
@@ -84,7 +84,7 @@ function Index() {
 </div>
 <div className="sb-tile sb-ref-034">
 <div className="sb-ref-035">
-<svg width="30" height="30" viewbox="0 0 28 28" aria-hidden="true"><g fill="none" stroke="var(--sb-color-4)" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"><rect x="5" y="3" width="18" height="6" rx="1.5"></rect><rect x="5" y="11" width="18" height="6" rx="1.5"></rect><rect x="5" y="19" width="18" height="6" rx="1.5"></rect><path d="M9 6h.01M9 14h.01M9 22h.01"></path></g></svg>
+<svg width="30" height="30" viewBox="0 0 28 28" aria-hidden="true"><g fill="none" stroke="var(--sb-color-4)" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"><rect x="5" y="3" width="18" height="6" rx="1.5"></rect><rect x="5" y="11" width="18" height="6" rx="1.5"></rect><rect x="5" y="19" width="18" height="6" rx="1.5"></rect><path d="M9 6h.01M9 14h.01M9 22h.01"></path></g></svg>
 <span className="sb-ref-036">03</span>
 </div>
 <h3 className="sb-ref-037">Data centres</h3>
@@ -92,7 +92,7 @@ function Index() {
 </div>
 <div className="sb-tile sb-ref-039">
 <div className="sb-ref-040">
-<svg width="30" height="30" viewbox="0 0 28 28" aria-hidden="true"><g fill="none" stroke="var(--sb-color-4)" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"><path d="M8 21h12.5a4.5 4.5 0 0 0 .6-8.96A6.5 6.5 0 0 0 8.6 11.1 5 5 0 0 0 8 21z"></path></g></svg>
+<svg width="30" height="30" viewBox="0 0 28 28" aria-hidden="true"><g fill="none" stroke="var(--sb-color-4)" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"><path d="M8 21h12.5a4.5 4.5 0 0 0 .6-8.96A6.5 6.5 0 0 0 8.6 11.1 5 5 0 0 0 8 21z"></path></g></svg>
 <span className="sb-ref-041">04</span>
 </div>
 <h3 className="sb-ref-042">Sovereign &amp; hybrid cloud</h3>
@@ -109,7 +109,7 @@ function Index() {
 </div>
 <Button asChild variant="reference" size="reference"><a href="mailto:albert@skyblu.co.uk" className="sb-dark sb-ref-049">
         albert@skyblu.co.uk
-        <svg width="16" height="16" viewbox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"></path></svg>
+        <svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"></path></svg>
 </a></Button>
 </div>
 </section>
