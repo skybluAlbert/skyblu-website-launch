@@ -142,3 +142,107 @@
     color: var(--color-foreground);
   }
 }
+
+/* Approved SkyBlu reference: exact presentation, with centralized colour tokens. */
+:root {
+  --sb-color-1: oklch(0.946889241 0.012557333 255.506421301);
+  --sb-color-2: oklch(0.182309115 0.031454309 261.098941551);
+  --sb-color-3: oklch(0.783652269 0.158720282 72.991255037);
+  --sb-color-4: oklch(0.738119496 0.119317355 234.370787212);
+  --sb-color-5: oklch(0.866104417 0.023979836 256.110950539);
+  --sb-color-6: oklch(0.946889241 0.012557333 255.506421301 / 0.3);
+  --sb-color-7: oklch(0.180597322 0.051064563 265.600586426 / 0.45);
+  --sb-color-8: oklch(0.946889241 0.012557333 255.506421301 / 0.25);
+  --sb-color-9: oklch(0.180597322 0.051064563 265.600586426 / 0.55);
+  --sb-color-10: oklch(0.999999993 0.000000037 89.875563096);
+  --sb-color-11: oklch(0.891207035 0.019143869 255.540558248);
+  --sb-color-12: oklch(0.170052659 0.029748684 252.623088272);
+  --sb-color-13: oklch(0.975001138 0.006226412 255.474661818);
+  --sb-color-14: oklch(0.709933310 0.035683875 255.256771932);
+  --sb-color-15: oklch(0.288944796 0.046045302 261.357460782);
+  --sb-color-16: oklch(0.204741170 0.037216717 260.542005533);
+  --sb-color-17: oklch(0.661403320 0.037626516 256.378931158);
+  --sb-color-18: oklch(0.774331041 0.030075703 254.713370844);
+  --sb-color-19: oklch(0.244879620 0.048008938 247.506214027);
+  --sb-color-20: oklch(0.170052659 0.029748684 252.623088272 / 0.2);
+  --sb-color-21: oklch(0.182309115 0.031454309 261.098941551 / 0.0);
+  --sb-color-22: oklch(0.294617225 0.093223839 260.033598728);
+  --sb-color-23: oklch(0.180597322 0.051064563 265.600586426 / 0.94);
+  --sb-color-24: oklch(0.180597322 0.051064563 265.600586426 / 0.82);
+  --sb-color-25: oklch(0.180597322 0.051064563 265.600586426 / 0.32);
+  --sb-color-26: oklch(0.180597322 0.051064563 265.600586426 / 0.05);
+  --sb-color-27: oklch(0.180597322 0.051064563 265.600586426 / 0.8);
+  --sb-color-28: oklch(0.403269480 0.061943168 259.186471630);
+  --sb-color-29: oklch(0.230776933 0.042600114 260.183106541);
+  --sb-color-30: oklch(0.999999993 0.000000037 89.875563096 / 0.1);
+  --sb-color-31: oklch(0.284773637 0.052739266 259.732280562);
+  --background: var(--sb-color-1);
+}
+
+body{margin:0;background:var(--sb-color-2)}
+a{color:var(--sb-color-1)}a:hover{color:var(--sb-color-10)}
+.sb-fade{position:absolute;left:0;right:0;bottom:0;height:180px;pointer-events:none;background:linear-gradient(180deg, var(--sb-color-21) 0%, var(--sb-color-2) 100%)}
+.sb-hero{position:relative;background-color:var(--sb-color-22);background-image:url("/hero.jpg");background-size:cover;background-position:65% center;background-repeat:no-repeat}
+.sb-scrim{position:absolute;inset:0;pointer-events:none;background:linear-gradient(90deg, var(--sb-color-23) 0%, var(--sb-color-24) 38%, var(--sb-color-25) 68%, var(--sb-color-26) 100%)}
+@media (max-width: 760px){.sb-scrim{background:var(--sb-color-27)}}
+.sb-pulse{animation:sbpulse 2.4s ease-in-out infinite}
+@keyframes sbpulse{0%,100%{opacity:1}50%{opacity:.35}}
+@media (prefers-reduced-motion: reduce){.sb-pulse{animation:none}}
+.sb-tile{transition:border-color .2s ease, background-color .2s ease}
+.sb-tile:hover{border-color:var(--sb-color-28);background-color:var(--sb-color-29)}
+.sb-cta:hover{filter:brightness(1.08)}
+.sb-ghost:hover{background-color:var(--sb-color-30)}
+.sb-dark:hover{background-color:var(--sb-color-31)}
+
+.sb-page.sb-ref-001, .sb-page .sb-ref-001 { min-height: 100vh; box-sizing: border-box; font-family: 'IBM Plex Sans', system-ui, sans-serif; color: var(--sb-color-1); background: var(--sb-color-2); display: flex; flex-direction: column }
+.sb-page.sb-ref-002, .sb-page .sb-ref-002 { min-height: 760px; display: flex; flex-direction: column; color: var(--sb-color-1) }
+.sb-page.sb-ref-003, .sb-page .sb-ref-003 { position: relative; width: 100%; max-width: 1240px; margin: 0 auto; padding: 0 24px; box-sizing: border-box; display: flex; flex-direction: column; flex-grow: 1 }
+.sb-page.sb-ref-004, .sb-page .sb-ref-004 { display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; padding: 28px 0 }
+.sb-page.sb-ref-005, .sb-page .sb-ref-005 { display: flex; align-items: center; gap: 14px; text-decoration: none }
+.sb-page.sb-ref-006, .sb-page .sb-ref-006 { display: flex; flex-direction: column; align-items: flex-end }
+.sb-page.sb-ref-007, .sb-page .sb-ref-007 { font-family: 'Nunito', sans-serif; font-weight: 900; font-size: 42px; line-height: 1; letter-spacing: -0.01em; color: var(--sb-color-4) }
+.sb-page.sb-ref-008, .sb-page .sb-ref-008 { font-family: 'IBM Plex Mono', monospace; font-size: 12px; letter-spacing: 0.24em; text-transform: uppercase; color: var(--sb-color-5); margin-top: 4px }
+.sb-page.sb-ref-009, .sb-page .sb-ref-009 { font-family: 'IBM Plex Mono', monospace; font-size: 13px; letter-spacing: 0.06em; text-decoration: none; color: var(--sb-color-1); padding: 12px 16px; border: 1px solid var(--sb-color-6); border-radius: 999px; min-height: 44px; box-sizing: border-box; display: inline-flex; align-items: center; background: var(--sb-color-7) }
+.sb-page.sb-ref-010, .sb-page .sb-ref-010 { flex-grow: 1; display: flex; flex-direction: column; justify-content: center; gap: 28px; align-items: flex-start; padding: 40px 0 96px; max-width: 640px }
+.sb-page.sb-ref-011, .sb-page .sb-ref-011 { display: inline-flex; align-items: center; gap: 10px; padding: 8px 14px; border: 1px solid var(--sb-color-8); border-radius: 999px; background: var(--sb-color-9); font-family: 'IBM Plex Mono', monospace; font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--sb-color-1) }
+.sb-page.sb-ref-012, .sb-page .sb-ref-012 { width: 8px; height: 8px; border-radius: 50%; background: var(--sb-color-3); display: inline-block }
+.sb-page.sb-ref-013, .sb-page .sb-ref-013 { margin: 0; font-family: 'Space Grotesk', sans-serif; font-weight: 600; font-size: clamp(40px, 5.6vw, 76px); line-height: 1.02; letter-spacing: -0.035em; color: var(--sb-color-10) }
+.sb-page.sb-ref-014, .sb-page .sb-ref-014 { margin: 0; font-size: 19px; line-height: 1.6; color: var(--sb-color-11); max-width: 52ch }
+.sb-page.sb-ref-015, .sb-page .sb-ref-015 { display: flex; flex-wrap: wrap; align-items: center; gap: 16px 24px; padding-top: 4px }
+.sb-page.sb-ref-016, .sb-page .sb-ref-016 { display: inline-flex; align-items: center; gap: 10px; min-height: 48px; padding: 0 22px; box-sizing: border-box; border-radius: 10px; background: var(--sb-color-4); color: var(--sb-color-12); font-weight: 500; font-size: 16px; text-decoration: none }
+.sb-page.sb-ref-017, .sb-page .sb-ref-017 { font-family: 'IBM Plex Mono', monospace; font-size: 13px; color: var(--sb-color-5); letter-spacing: 0.04em }
+.sb-page.sb-ref-018, .sb-page .sb-ref-018 { background: var(--sb-color-2); padding: 16px 0 88px }
+.sb-page.sb-ref-019, .sb-page .sb-ref-019 { width: 100%; max-width: 1240px; margin: 0 auto; padding: 0 24px; box-sizing: border-box; display: flex; flex-direction: column; gap: 32px }
+.sb-page.sb-ref-020, .sb-page .sb-ref-020 { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 8px 24px }
+.sb-page.sb-ref-021, .sb-page .sb-ref-021 { margin: 0; font-family: 'Space Grotesk', sans-serif; font-weight: 600; font-size: 34px; letter-spacing: -0.02em; color: var(--sb-color-13) }
+.sb-page.sb-ref-022, .sb-page .sb-ref-022 { font-family: 'IBM Plex Mono', monospace; font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--sb-color-14) }
+.sb-page.sb-ref-023, .sb-page .sb-ref-023 { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 16px }
+.sb-page.sb-ref-024, .sb-page .sb-ref-024 { display: flex; flex-direction: column; gap: 14px; padding: 26px; border: 1px solid var(--sb-color-15); border-radius: 14px; background: var(--sb-color-16) }
+.sb-page.sb-ref-025, .sb-page .sb-ref-025 { display: flex; align-items: center; justify-content: space-between }
+.sb-page.sb-ref-026, .sb-page .sb-ref-026 { font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: var(--sb-color-17) }
+.sb-page.sb-ref-027, .sb-page .sb-ref-027 { margin: 0; font-family: 'Space Grotesk', sans-serif; font-weight: 600; font-size: 20px; letter-spacing: -0.01em; color: var(--sb-color-13) }
+.sb-page.sb-ref-028, .sb-page .sb-ref-028 { margin: 0; font-size: 15px; line-height: 1.55; color: var(--sb-color-18) }
+.sb-page.sb-ref-029, .sb-page .sb-ref-029 { display: flex; flex-direction: column; gap: 14px; padding: 26px; border: 1px solid var(--sb-color-15); border-radius: 14px; background: var(--sb-color-16) }
+.sb-page.sb-ref-030, .sb-page .sb-ref-030 { display: flex; align-items: center; justify-content: space-between }
+.sb-page.sb-ref-031, .sb-page .sb-ref-031 { font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: var(--sb-color-17) }
+.sb-page.sb-ref-032, .sb-page .sb-ref-032 { margin: 0; font-family: 'Space Grotesk', sans-serif; font-weight: 600; font-size: 20px; letter-spacing: -0.01em; color: var(--sb-color-13) }
+.sb-page.sb-ref-033, .sb-page .sb-ref-033 { margin: 0; font-size: 15px; line-height: 1.55; color: var(--sb-color-18) }
+.sb-page.sb-ref-034, .sb-page .sb-ref-034 { display: flex; flex-direction: column; gap: 14px; padding: 26px; border: 1px solid var(--sb-color-15); border-radius: 14px; background: var(--sb-color-16) }
+.sb-page.sb-ref-035, .sb-page .sb-ref-035 { display: flex; align-items: center; justify-content: space-between }
+.sb-page.sb-ref-036, .sb-page .sb-ref-036 { font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: var(--sb-color-17) }
+.sb-page.sb-ref-037, .sb-page .sb-ref-037 { margin: 0; font-family: 'Space Grotesk', sans-serif; font-weight: 600; font-size: 20px; letter-spacing: -0.01em; color: var(--sb-color-13) }
+.sb-page.sb-ref-038, .sb-page .sb-ref-038 { margin: 0; font-size: 15px; line-height: 1.55; color: var(--sb-color-18) }
+.sb-page.sb-ref-039, .sb-page .sb-ref-039 { display: flex; flex-direction: column; gap: 14px; padding: 26px; border: 1px solid var(--sb-color-15); border-radius: 14px; background: var(--sb-color-16) }
+.sb-page.sb-ref-040, .sb-page .sb-ref-040 { display: flex; align-items: center; justify-content: space-between }
+.sb-page.sb-ref-041, .sb-page .sb-ref-041 { font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: var(--sb-color-17) }
+.sb-page.sb-ref-042, .sb-page .sb-ref-042 { margin: 0; font-family: 'Space Grotesk', sans-serif; font-weight: 600; font-size: 20px; letter-spacing: -0.01em; color: var(--sb-color-13) }
+.sb-page.sb-ref-043, .sb-page .sb-ref-043 { margin: 0; font-size: 15px; line-height: 1.55; color: var(--sb-color-18) }
+.sb-page.sb-ref-044, .sb-page .sb-ref-044 { background: var(--sb-color-4); padding: 64px 0 }
+.sb-page.sb-ref-045, .sb-page .sb-ref-045 { width: 100%; max-width: 1240px; margin: 0 auto; padding: 0 24px; box-sizing: border-box; display: flex; flex-wrap: wrap; align-items: center; gap: 32px 48px }
+.sb-page.sb-ref-046, .sb-page .sb-ref-046 { flex: 1 1 420px; min-width: 0; display: flex; flex-direction: column; gap: 12px }
+.sb-page.sb-ref-047, .sb-page .sb-ref-047 { margin: 0; font-family: 'Space Grotesk', sans-serif; font-weight: 600; font-size: clamp(28px, 3.2vw, 40px); line-height: 1.1; letter-spacing: -0.025em; color: var(--sb-color-12) }
+.sb-page.sb-ref-048, .sb-page .sb-ref-048 { margin: 0; font-size: 17px; line-height: 1.55; color: var(--sb-color-19); max-width: 56ch }
+.sb-page.sb-ref-049, .sb-page .sb-ref-049 { display: inline-flex; align-items: center; gap: 10px; min-height: 52px; padding: 0 26px; box-sizing: border-box; border-radius: 10px; background: var(--sb-color-2); color: var(--sb-color-10); font-weight: 500; font-size: 16px; text-decoration: none }
+.sb-page.sb-ref-050, .sb-page .sb-ref-050 { background: var(--sb-color-4) }
+.sb-page.sb-ref-051, .sb-page .sb-ref-051 { width: 100%; max-width: 1240px; margin: 0 auto; padding: 24px 24px 32px; box-sizing: border-box; border-top: 1px solid var(--sb-color-20); display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px 24px; font-family: 'IBM Plex Mono', monospace; font-size: 12px; letter-spacing: 0.04em; color: var(--sb-color-19) }
+.sb-page .sb-ghost, .sb-page .sb-cta, .sb-page .sb-dark { height: auto; white-space: normal; box-shadow: none; }
